@@ -1,13 +1,19 @@
 <html>
 <head>
 <title>Simple Form</title>
+<script src="upload.js"></script>
 </head>
 <body>
-<form method="post" action="upload.php">
-<p>
-Enter your Email: <input type="text",name="email" /></br>
-Enter your Password: <input type="text",name="pass" /></br>
-<input type="button", value="submit" />
-</p>
+<fieldset>
+
+<form id="formy" method="post" action="upload.php">
+<table>
+<tr><td>Enter your Email:</td><td> <input type="text" id="email" name="email" /></td></tr>
+<tr><td>Enter your Password: </td><td><input type="text" id="pass" name="pass" /></td></tr>
+<tr>
+<input type="button" value="submit" />
+</tr>
+</table>
+</fieldset>
 </body>
 <html>
