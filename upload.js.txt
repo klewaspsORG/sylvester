@@ -1,8 +1,0 @@
-function check(getName,getPass)
-{
-if(getName.length<=6)
-alert("Invalid name");
-if(getPass.lenght<=6)
-alert("Invalid pass");
-
-}
