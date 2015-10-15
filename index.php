@@ -1,11 +1,10 @@
 <?php
-<<<<<<< HEAD
+session_start();
 
 echo "hello Vikas";
 echo "KLE";
-=======
-session_start();
+
 echo "hello";
->>>>>>> origin/master
+
 
 ?>
