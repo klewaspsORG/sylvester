@@ -1,4 +1,0 @@
-function check()
-{
-alert("vikas");
-}
