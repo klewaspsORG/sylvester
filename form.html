@@ -1,19 +1,24 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Simple Form</title>
-<script src="upload.js"></script>
+<head><title>javascript</title>
+<script type="text/javascript" >
+function check(getEmail,getPass)
+{
+if(getEmail.value.length<6)
+alert("Invaid Email");
+if(getPass.value.length<6)
+alert("Invalid password");
+}
+</script>
 </head>
 <body>
+<form action="">
 <fieldset>
-
-<form id="formy" method="post" action="upload.php">
 <table>
-<tr><td>Enter your Email:</td><td> <input type="text" id="email" name="email" /></td></tr>
-<tr><td>Enter your Password: </td><td><input type="text" id="pass" name="pass" /></td></tr>
-<tr>
-<input type="button" value="submit" />
-</tr>
+<tr><td>Email: <input type="text" name="Email"/></tr></td>
+<tr><td>Password:<input type="password" name="Password" /></tr></td>
+<tr><td><input type="Button" value="Submit" onClick="check(Email,Password)"/></tr></td>
 </table>
 </fieldset>
 </body>
-<html>
+</html> 
